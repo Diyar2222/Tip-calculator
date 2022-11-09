@@ -1,0 +1,46 @@
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background:linear-gradient(45deg, orange,purple);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+}
+.container{
+    background-color: rgb(20, 30, 40);
+    height:70vh;
+    width:30vw;
+    border-radius: 20px;
+}
+div {
+    margin: 20px;
+}
+input[type="number"]{
+    float: right;
+    outline: none;
+    height:20px;
+}
+.float-right {
+    float: right;
+}
+.dollar-sign {
+    background-color: white;
+    height:20px;
+    width:10px;
+}
+input[type="range"]{
+    width:100%;
+}
+.total-container {
+    height:100px;
+    background-color: rgb(100%,88%,100%);
+    padding-top: 4px;
+    color:purple;
+    margin:20px;
+    border-radius: 10px;
+}
